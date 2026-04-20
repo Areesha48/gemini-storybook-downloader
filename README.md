@@ -28,7 +28,7 @@ Since this extension is not on the Chrome Web Store, you need to load it manuall
 
 1. **Download** this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/gemini-storybook-downloader.git
+   git clone https://github.com/Areesha48/gemini-storybook-downloader.git
    ```
 
 2. Open Chrome and go to:
@@ -91,4 +91,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for the Gemini Storybook community**
+**Created by [HijabiCoder](https://github.com/Areesha48) 🧕💻**
