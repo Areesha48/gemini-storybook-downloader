@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📚 Storybook PDF Generation...</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="generator-page">
+  <div class="generator-status" id="status-card">
+    <div class="generator-main" id="main-content">
+      <div class="spinner" id="spinner"></div>
+      <h1 id="status-title">Initializing...</h1>
+      <p id="status-message">Storybook data load ho raha hai...</p>
+      <div class="progress-container" id="progress-container" style="display:none;">
+        <div class="progress-bar" id="progress-bar" style="width: 0%"></div>
+      </div>
+      <p class="progress-text" id="progress-text" style="display:none;">0 / 0 images</p>
+    </div>
+    <div class="generator-footer" id="footer" style="display:none;">
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank" class="footer-link">Made with ❤️</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="lib/pdf-lib.min.js"></script>
+  <script src="lib/fontkit.umd.min.js"></script>
+  <script src="watermark.js"></script>
+  <script src="generator.js"></script>
+</body>
+</html>
